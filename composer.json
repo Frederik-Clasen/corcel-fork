@@ -1,6 +1,5 @@
 {
-    "name": "corcel/fork",
-    "replace": { "corcel/fork": "self.version" },
+    "name": "frederik-clasen/corcel-fork",
     "description": "Use WordPress backend with Laravel or any PHP framework",
     "homepage": "http://github.com/corcel/corcel",
     "license": "MIT",
@@ -9,6 +8,10 @@
             "name": "Junior Grossi",
             "email": "juniorgro@gmail.com",
             "homepage": "http://jgrossi.com"
+        },
+        {
+            "name": "Frederik Clasen",
+            "email": "frederik.clasen@gmail.com"
         }
     ],
     "require": {
