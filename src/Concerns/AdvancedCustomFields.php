@@ -2,7 +2,7 @@
 
 namespace Corcel\Concerns;
 
-use Corcel\Acf\AdvancedCustomFields as BaseAdvancedCustomFields;
+use Corcel\AdvancedCustomFields as BaseAdvancedCustomFields;
 
 /**
  * Trait HasAcfFields
@@ -13,7 +13,7 @@ use Corcel\Acf\AdvancedCustomFields as BaseAdvancedCustomFields;
 trait AdvancedCustomFields
 {
     /**
-     * @return AdvancedCustomFields
+     * @return BaseAdvancedCustomFields
      */
     public function getAcfAttribute()
     {
